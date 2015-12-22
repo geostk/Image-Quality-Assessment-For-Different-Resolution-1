@@ -19,4 +19,9 @@ The characteristic of high frequency part is described in 2.4. Detailed calculat
 The half high frequency part of reference image is the rest part of reference image to an imaginary target image with the half height and width of the reference image. The calculation process is similar to the proportion of high frequency part of reference image to all alternating current coefficients. This proportion is only related to the content of image. 
 
 Finally, three reasonable parameters related to image quality assessment are extracted. Input the three parameters into the trained model of regression, to get the objective quality score of the image. 
-  
+
+# Dataset
+The image dataset with different resolution is created by us. We choose the original 8 images with resolution 720*1280 varying in content and down sample them into three different resolution:720*1280, 540*960, 360*640. Then we degrade them with blur, jpeg compression and noise with different parameters. The total number of images is 504. We collect the subject quality score of the dataset by calculate the average score of ten people. We split the dataset to training set with 72 image, 24 for each resolution.
+
+# Language
+MATLAB,OpenGL,Spark
