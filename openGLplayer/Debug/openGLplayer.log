@@ -1,0 +1,16 @@
+﻿生成启动时间为 2015/11/24 20:29:45。
+     1>项目“C:\Users\zyj\documents\visual studio 2013\Projects\openGLplayer\openGLplayer\openGLplayer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\openGLplayer.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt openGLplayer.cpp
+         openGLplayer.cpp
+     1>c:\users\zyj\documents\visual studio 2013\projects\openglplayer\openglplayer\freeimage.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zyj\documents\visual studio 2013\Projects\openGLplayer\Debug\openGLplayer.exe" /INCREMENTAL /NOLOGO FreeImage.lib glu32.lib glut32.lib openGL32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\zyj\documents\visual studio 2013\Projects\openGLplayer\Debug\openGLplayer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zyj\documents\visual studio 2013\Projects\openGLplayer\Debug\openGLplayer.lib" /MACHINE:X86 Debug\openGLplayer.obj
+         Debug\stdafx.obj
+         Debug\TextureManager.obj
+         openGLplayer.vcxproj -> C:\Users\zyj\documents\visual studio 2013\Projects\openGLplayer\Debug\openGLplayer.exe
+     1>已完成生成项目“C:\Users\zyj\documents\visual studio 2013\Projects\openGLplayer\openGLplayer\openGLplayer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.98
